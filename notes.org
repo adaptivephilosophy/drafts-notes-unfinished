@@ -1,0 +1,39 @@
+#+TITLE: Notes
+#+AUTHOR: Danel Bryan Aneux Zoix
+#+DATE: 2026-09-16
+#+FILETAGS: dev checkin log
+
+* Inbox
+:PROPERTIES:
+:ID: inbox
+:END:
+- [ ] Test local file append on iPhone
+
+* Dev
+:PROPERTIES:
+:ID: dev
+:END:
+** Grok Log shortcut
+- Local-only log: On My iPhone/Shortcuts/grok-log.txt
+- No iCloud, no paid backup
+- Menu: check-in, log clipboard, copy last N, open log
+- Hook append into existing X check-in shortcut
+
+** Org-mode on iOS
+- Edit as plain text (.org extension)
+- View in Textastic / iA Writer / Org-aware reader
+- Keep one file per topic or one master + subtrees
+
+* Check-ins
+:PROPERTIES:
+:ID: checkins
+:END:
+*** 2026-09-16 08:01
+- Location: 204 4th Ave W RM 312, Olympia, WA 98501
+- Note: Testing iPhone shortcut + X API
+
+* Log
+:PROPERTIES:
+:ID: log
+:END:
+- 2026-09-16 08:06 DEV | Created org-mode notes structure
