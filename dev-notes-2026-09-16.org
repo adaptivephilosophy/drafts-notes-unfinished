@@ -1,0 +1,147 @@
+#+TITLE: Dev Notes — Adaptive Philosophy Foundation
+#+AUTHOR: Danel Bryan Aneux Zoix
+#+DATE: 2026-09-16
+#+FILETAGS: dev mission costs tools nonprofit github org-mode
+
+* Overview
+:PROPERTIES:
+:ID: overview
+:END:
+This file captures the full working session from ~9:00 AM Pacific on 2026-09-16.
+It is the single source of truth so donors, partners, and future collaborators do not have to hear the story repeated.
+
+* Mission
+:PROPERTIES:
+:ID: mission
+:END:
+The people at the bottom are the most important.
+- Build tools that help the people falling through the cracks, not just rich people setting up foundations for free stuff.
+- Give the system away for free. Anyone can use it, set up their own credit system, or ask questions through a link.
+- Range of options: X, Google, self-hosted, Salesforce — swap edges, keep the core.
+- Tip jar is welcome but never required.
+
+* The Big Number (the gate)
+:PROPERTIES:
+:ID: big-number
+:END:
+Everything waits on one number: the IRS 501(c)(3) filing fee.
+- First-year total to get recognized and tools working: ~$1,200–$1,700
+- Ongoing after that: ~$450/year
+- With LegalZoom done-for-you package: ~$1,200–$1,700 (or up to ~$3,200 if ADP payroll is included)
+- Delaware C-corp revival (old entity): +$175 minimum franchise tax
+
+** Cost breakdown (full price, no help)
+- IRS Form 1023-EZ: $275 (fee reduction possible for gross receipts under $10k/yr; sometimes waived)
+- Washington charity registration: $60
+- Apple Developer Program: $99
+- LegalZoom nonprofit formation: $99–$359 + state fees
+- LegalZoom 501(c)(3) service: $595–$795 (covers IRS fee)
+- Domain renewal: $10–$25
+- Washington annual report: $10
+- 1Password (if kept): $36/yr — prefer Bitwarden free instead
+- Bitwarden Premium (optional sync): $48/yr
+- Google Workspace for Nonprofits: $0 (once verified)
+- Salesforce Power of Us: $0 (10 free licenses once verified)
+- ADP RUN (if used): ~$83/mo + ~$2,000 setup — cheaper: OnPay ~$25/mo (nonprofit), Patriot ~$37, Gusto ~$49; or skip payroll with board stipends ($0)
+
+* IRS Path
+:PROPERTIES:
+:ID: irs-path
+:END:
+- Form 1023-EZ: $275 standard.
+- Fee reduction for orgs with gross receipts under $10,000/yr — sometimes ~$400, sometimes waived if inability to pay is shown.
+- Call IRS Exempt Organizations line before assuming full price.
+- Until the determination letter exists, no grants, no sponsor verification, no Google/Salesforce nonprofit access.
+
+* LegalZoom Status
+:PROPERTIES:
+:ID: legalzoom
+:END:
+- Foundation shows Active on LegalZoom, last synced with WA Secretary of State 2026-09-01.
+- State ID: 605997479 · EIN: 41-2423064
+- EIN does NOT appear in Washington CCFS, IRS Tax Exempt Search, or ProPublica — charity registration and 501(c)(3) determination were never completed.
+- Old Delaware C-corp (2018–2019 era, EIN 93-4900157) is a separate zombie entity; not the foundation.
+
+* Tools Built (solo, no AI, no help)
+:PROPERTIES:
+:ID: tools
+:END:
+** Self-hosted stack (apsoftware.dev)
+- React/Next.js site on Firebase/Google Cloud, Docker images, auto-scaling.
+- Self-healing: server shuts down on non-payment, boots itself when billing clears.
+- Test endpoint: apsoftware.dev/time returns JSON (Arizona time) when up.
+- Auto-scales with traffic; dormant until money lands.
+
+** iPhone / Shortcuts
+- Local-only log: On My iPhone/Shortcuts/grok-log.txt (no iCloud, no paid backup).
+- Menu: check-in, log clipboard, copy last N, open log.
+- Hook append into existing X check-in shortcut.
+- Stopwatch used to track session time (~2h51m by 10:49 AM) — ADHD accommodation.
+
+** Org-mode notes
+- Plain-text .org files, one master + subtrees.
+- Edit in Textastic / iA Writer; view in org-aware reader.
+- This file is the template.
+
+** GitHub
+- Repo: adaptivephilosophy/drafts-notes-unfinished (public, CC0).
+- notes.org pushed; this dev-notes file added.
+- Grok GitHub app granted access to private Emacs repo (apsoftwaredev).
+
+** Email / calendar
+- Meeting with Lulie Negreira, Center for Social Change, rescheduled to 2:00 PM today (was 11:00 AM).
+- Zoom: https://us02web.zoom.us/j/87966730003
+- Full summary email drafted for Lulie (mission, costs, tools, local charities).
+
+** Other platforms (range of options)
+- X (Grok), Google (Workspace + Cloud for Nonprofits), Salesforce Nonprofit Cloud, self-hosted connectors.
+- Vendor-neutral core, interchangeable edges. Swap if payment or policy breaks one.
+- Google for Nonprofits: free Workspace + $300 Cloud credits once 501(c)(3) verified.
+- Salesforce: APIs + PayPal integration previously built in a free month (deleted; rebuildable as demo).
+
+* Local animal charities (pay-it-forward)
+:PROPERTIES:
+:ID: animals
+:END:
+- Covenant Creatures (Tumwater) — all-volunteer, street outreach for low-income pet owners.
+- Concern for Animals — pet food bank.
+- Both helped with service-animal food; foundation wants to support them once recognized.
+
+* What would help most right now
+:PROPERTIES:
+:ID: help
+:END:
+1. Seed funding / Cash App setup (Cash App currently denied).
+2. IRS fee waiver or reduced filing.
+3. Intros to sponsors that don't require tax-exempt status yet.
+A small amount unblocks the IRS fee, state filing, and tools. Everything else is ready to connect.
+
+* Next steps
+:PROPERTIES:
+:ID: next
+:END:
+- [ ] Call IRS Exempt Organizations about fee reduction/waiver.
+- [ ] Complete WA charity registration (or confirm LegalZoom did).
+- [ ] Submit 501(c)(3) (1023-EZ) once fee path is clear.
+- [ ] Build webhook: phone log → GitHub gist / Notion page for session reload.
+- [ ] Apply Google for Nonprofits + Salesforce Power of Us after determination letter.
+- [ ] Rebuild Salesforce demo (APIs + PayPal) as a teaching video.
+- [ ] Keep apsoftware.dev domain; renew when card works.
+- [ ] 2:00 PM meeting with Lulie — show artifacts, not live demos (credits low).
+
+* Session log (2026-09-16)
+:PROPERTIES:
+:ID: session-log
+:END:
+- ~09:00 — Started; stopwatch running (ADHD time-tracking).
+- 08:01 — Check-in: 204 4th Ave W RM 312, Olympia, WA 98501 (testing iPhone shortcut + X API).
+- Built Grok Log shortcut (local file, no iCloud).
+- Drafted org-mode notes template; pushed notes.org to GitHub.
+- Granted Grok GitHub app access to private Emacs repo.
+- Researched IRS fee waiver, LegalZoom pricing, ADP alternatives, Google/Salesforce nonprofit programs.
+- Drafted full summary email for Lulie (mission, costs, tools, charities).
+- Noted mission: people at the bottom are the most important.
+- Noted: all tools built solo, no AI, no help — real infrastructure, not a pipe dream.
+- Family does not see the work; self-reliance culture; no recognition at past jobs (ChenMed, PwC).
+- Decided: no live demo at 2 PM (credits low); show finished artifacts instead.
+- Saved this dev note to GitHub for donors and collaborators.
