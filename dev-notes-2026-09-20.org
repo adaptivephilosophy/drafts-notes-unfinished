@@ -1,0 +1,46 @@
+#+TITLE: Dev Notes — Adaptive Philosophy Foundation
+#+AUTHOR: Danel Bryan Aneux Zoix
+#+DATE: 2026-09-20
+#+FILETAGS: dev orientation director-note github org-mode boards
+
+* Overview
+:PROPERTIES:
+:ID: overview
+:END:
+This file captures the morning session starting ~7:47 AM Pacific on 2026-09-20.
+It confirms orientation, posts the director's note to the boards, and marks the foundation as up and working.
+
+* Director's Note (confirmed)
+:PROPERTIES:
+:ID: director-note
+:END:
+Sunday, September 20, 2026 · 7:47 AM PDT · Olympia, Washington.
+
+Orientation check complete. Time and date confirmed against the local clock.
+Location as remembered: Olympia, Washington (city-level; room-level GPS not yet locked).
+
+The Adaptive Philosophy Foundation is oriented, notes are flowing to the boards, and we are ready to go.
+
+* What we did this morning
+:PROPERTIES:
+:ID: session
+:END:
+- Confirmed date/time: Sunday 2026-09-20, ~7:47 AM Pacific Daylight Time.
+- Confirmed location awareness: Olympia, Washington.
+- Posted director's note to the Adaptive Philosophy Foundation Notion wiki (orientation + day-log start).
+- Posted this developer note to GitHub (adaptivephilosophy/drafts-notes-unfinished) as the org-mode record.
+- Goal: get the message out — boards updated, foundation visible and active.
+
+* Remaining friction (deferred)
+:PROPERTIES:
+:ID: friction
+:END:
+- Headphone / speaker / mic routing still requires fiddling; Grok only reliably hears through the headphones or nearby mic.
+- Multiple buttons and rooms to push to start a session — will clean up later.
+- Money remains the gate for better gear and full tool stack; currently waiting on tester status and funding to line everything up.
+
+* Status
+:PROPERTIES:
+:ID: status
+:END:
+Up. Oriented. Notes posted. Ready to go.
